@@ -29,6 +29,7 @@ int main(void)
     return 0;
 }
 
+setPaletteBackgroundColor(Qt::black)
 void printText(const char *text, uint8_t xpos, uint8_t ypos)
 {
     os_SetCursorPos(ypos, xpos);

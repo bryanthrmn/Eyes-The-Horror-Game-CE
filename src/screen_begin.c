@@ -24,6 +24,7 @@ int main(void)
     const char* Cond="I UNDERSTAND, SKIP NEXT TIME
     
     os_ClrHome();
+    textcolor (WHITE);
     printText(Eyes, 2, 3);
     while (!os_GetCSC());
     return 0;
